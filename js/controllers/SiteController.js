@@ -18,8 +18,8 @@ app.controller('SiteController', ['$scope','$http','$q', '$state',
       var targetFPS = 33;
 
       // Set the dimensions of the canvas as variables so they can be used.
-      var canvasWidth = 2200;
-      var canvasHeight = 2200;
+      var canvasWidth = 400;
+      var canvasHeight = 400;
 
       // Create an image object (only need one instance)
       var imageObj = new Image();
@@ -152,7 +152,7 @@ app.controller('SiteController', ['$scope','$http','$q', '$state',
       function draw() {
           // Clear the drawing surface and fill it with a black background
           context.fillStyle = "rgba(0, 0, 0, 0.5)";
-          context.fillRect(0, 0, 400, 400);
+          context.fillRect(0, 0, 2200, 2200);
 
           // Go through all of the particles and draw them.
           particles.forEach(function(particle) {
