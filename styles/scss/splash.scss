@@ -2,7 +2,7 @@
 #triangle-topright {
 	width: 0;
 	height: 0;
-	border-top: 667px solid yellow;
+	border-top: 667px solid rgba(255, 255, 0, 1);
 	border-left: 375px solid transparent;
   position: absolute;
   position: absolute;
@@ -16,7 +16,7 @@
 #triangle-bottomleft {
 	width: 0;
 	height: 0;
-	border-bottom: 667px solid red;
+	border-bottom: 667px solid rgba(178, 12, 9, 1);
 	border-right: 375px solid transparent;
   position: absolute;
   bottom: 0;

@@ -1,8 +1,6 @@
 app.controller('SiteController', ['$scope','$http','$q', '$state',
  function ($scope, $http, $q, $state) {
 
-      $scope.JensFace = "SUPER MOTHER FLIPPING DOPE SHIT! GAWH!"
-
       $scope.enterSite = function(){
         $("#cannaleaf").toggleClass("up")
         setTimeout(function(){
