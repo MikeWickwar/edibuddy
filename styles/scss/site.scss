@@ -1,5 +1,15 @@
 // helpers and variables
 
+#appTitle{
+  position: relative;
+  z-index: 10000;
+  font-size: 50px;
+  text-align: center;
+  font-family: cursive;
+  background: -webkit-linear-gradient(rgba(141,236,3,1) , rgba(229,235,0,1));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 html{
   height: 100vh;

@@ -6,6 +6,7 @@ app.controller('SiteController', ['$scope','$http','$q', '$state',
         setTimeout(function(){
           $("#cannaleaf").toggleClass("up")
           $("#triangle-topright").toggleClass("remove");
+          $("#appTitle").toggleClass("remove");
           $("#triangle-bottomleft").toggleClass("removeleft");
           $("#cannaleaf").toggleClass("removeleft")
 

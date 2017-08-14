@@ -1,3 +1,13 @@
+#appTitle {
+  position: relative;
+  z-index: 10000;
+  font-size: 50px;
+  text-align: center;
+  font-family: cursive;
+  background: -webkit-linear-gradient(#8dec03, #e5eb00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
 html {
   height: 100vh;
   width: 100vw; }
