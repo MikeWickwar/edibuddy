@@ -3,7 +3,16 @@ app.controller('SiteController', ['$scope','$http','$q', '$state',
 
       $scope.JensFace = "SUPER MOTHER FLIPPING DOPE SHIT! GAWH!"
 
+      $scope.enterSite = function(){
+        $("#cannaleaf").toggleClass("up")
+        setTimeout(function(){
+          $("#cannaleaf").toggleClass("up")
+          $("#triangle-topright").toggleClass("remove");
+          $("#triangle-bottomleft").toggleClass("removeleft");
+          $("#cannaleaf").toggleClass("removeleft")
 
+        }, 1000)
+      }
 
       // Create an array to store our particles
       var particles = [];
@@ -12,7 +21,7 @@ app.controller('SiteController', ['$scope','$http','$q', '$state',
       var particleCount = 30;
 
       // The maximum velocity in each direction
-      var maxVelocity = 2;
+      var maxVelocity = 1;
 
       // The target frames per second (how often do we want to update / redraw the scene)
       var targetFPS = 33;

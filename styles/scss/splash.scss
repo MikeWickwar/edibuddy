@@ -1,0 +1,85 @@
+// ste to iphone5/6 size right now
+#triangle-topright {
+	width: 0;
+	height: 0;
+	border-top: 667px solid yellow;
+	border-left: 375px solid transparent;
+  position: absolute;
+  position: absolute;
+  top: 0;
+  -webkit-transition: all 2000ms ease-in-out;
+  -moz-transition: all 2000ms ease-in-out;
+  -o-transition: all 2000ms ease-in-out;
+  -ms-transition: all 2000ms ease-in-out;
+}
+
+#triangle-bottomleft {
+	width: 0;
+	height: 0;
+	border-bottom: 667px solid red;
+	border-right: 375px solid transparent;
+  position: absolute;
+  bottom: 0;
+  -webkit-transition: all 2000ms ease-in-out;
+  -moz-transition: all 2000ms ease-in-out;
+  -o-transition: all 2000ms ease-in-out;
+  -ms-transition: all 2000ms ease-in-out;
+}
+
+.remove {
+  -webkit-transition: all 2000ms ease-in-out;
+  -moz-transition: all 2000ms ease-in-out;
+  -o-transition: all 2000ms ease-in-out;
+  -ms-transition: all 2000ms ease-in-out;
+  -webkit-transform: translatex(800px) ;
+     -moz-transform: translatex(800px) ;
+      -ms-transform: translatex(800px) ;
+       -o-transform: translatex(800px) ;
+          transform: translatex(800px) ;
+
+}
+
+.removeleft {
+  -webkit-transition: all 2000ms ease-in-out;
+  -moz-transition: all 2000ms ease-in-out;
+  -o-transition: all 2000ms ease-in-out;
+  -ms-transition: all 2000ms ease-in-out;
+  -webkit-transform: translatex(-800px) ;
+     -moz-transform: translatex(-800px) ;
+      -ms-transform: translatex(-800px) ;
+       -o-transform: translatex(-800px) ;
+          transform: translatex(-800px) ;
+}
+
+#splitterContainer{
+  height: 100%;
+  width: 100%;
+}
+
+#cannaleaf{
+  background: url(../../images/edibuddyCenter.png);
+  background-size: 100px;
+  height: 100px;
+  width: 100px;
+  top: 45%;
+  left: 38%;
+  display: block;
+  position: absolute;
+  z-index: 100000;
+}
+#cannaleaf.up {
+    -webkit-transform: rotate(360deg);
+       -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+         -o-transform: rotate(360deg);
+            transform: rotate(360deg);
+               /* IE6–IE9 */
+               filter: progid:DXImageTransform.Microsoft.Matrix(M11=0.9914448613738104, M12=-0.13052619222005157,M21=0.13052619222005157, M22=0.9914448613738104, sizingMethod='auto expand');
+                 zoom: 1;
+    }
+.up{
+  -webkit-transition: all 1000ms ease-in-out;
+  -moz-transition: all 1000ms ease-in-out;
+  -o-transition: all 1000ms ease-in-out;
+  -ms-transition: all 1000ms ease-in-out;
+}

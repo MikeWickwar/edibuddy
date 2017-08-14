@@ -32,6 +32,6 @@ browserSync.init({
 });
 
 gulp.task('kickit', ['browserSync', 'sass'], function (){
-  gulp.watch('./scss/*.scss', ['sass']);
+  gulp.watch('./styles/scss/*.scss', ['sass']);
   // Other watchers
 });
